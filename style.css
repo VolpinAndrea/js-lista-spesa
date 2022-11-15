@@ -5,9 +5,6 @@
 .centro{
     background-image: url(img/foglio3.jpg);
 }
-.div-flex{
-    /* display: flex; */
-}
 .elemento{
     display: flex; 
     margin-left: 20%; 
