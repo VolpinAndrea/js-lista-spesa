@@ -18,10 +18,10 @@ while(j < listaSpesa.length){
 }
 
 let elenco = document.querySelector(".elencoPuntato");
-let pulsanteX = '<button type="button" class="btn-close" aria-label="Close"></button>'; //  "+pulsanteX+"
+let pulsanteX = '<button type="button" class=" cancella">X</button>'; //  "+pulsanteX+"
 
 for (let i = 0; i < listaSpesa.length; i++) {
-    elenco.innerHTML += "<li><h4>"+listaSpesa[i]+"</h4></li>";
+    elenco.innerHTML += "<li class= \"elemento my-2\"><h4>"+listaSpesa[i]+"</h4>"+pulsanteX+"</li>";
  }
 
  let aggButton = document.getElementById("aggiungi");
