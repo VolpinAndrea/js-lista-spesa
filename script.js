@@ -15,3 +15,9 @@ while(j < listaSpesa.length){
     j++
 
 }
+
+let elenco = document.querySelector(".elencoPuntato");
+
+for (let i = 0; i < listaSpesa.length; i++) {
+    elenco.innerHTML += "<li>"+listaSpesa[i]+"</li>";
+ }
